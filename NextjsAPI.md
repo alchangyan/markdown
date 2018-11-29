@@ -2,7 +2,7 @@
 
 ## Link (HOC)
 
-```babel
+```javascript-babel
 <Link href="/about">
   <a>go to about page</a>
 </Link>
@@ -10,7 +10,7 @@
 
 or
 
-```babel
+```jsx
 <Link href="/about">
   <button>go to about page</button>
 </Link>
