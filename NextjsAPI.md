@@ -2,7 +2,7 @@
 
 ## Link (HOC)
 
-```javascript-babel
+```jsx
 <Link href="/about">
   <a>go to about page</a>
 </Link>
@@ -20,14 +20,14 @@ Link HOC supports all components with onClick attribute(method)
 
 use "prefetch" for previously load/compile future page
 
-```babel
+```jsx
 <Link prefetch href="/">
 ```
 
 also can be used next example:
 
 current location is /about
-```javascript
+```jsx
 const href = {
   pathname: '/about', // the location where we want to go nad this means that in this example we want to stay at the same place, but we need to change props of "new loaded" component
   query: { name: 'zeit' } // some data to send to our new implemented /about page
